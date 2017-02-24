@@ -8,6 +8,10 @@ body {
 
 }
 
+h1, h2, h3, h4, p {
+  text-align: center;
+}
+
 .jumbotron{
   text-align: center;
   background-image: url(images/loader.jpeg);
@@ -37,6 +41,24 @@ body {
   color: #fff;
 }
 
-.about-txt {
-  background-color:#6E7679;
+.portfolio{
+  text-align: center;
+
+}
+
+.excavation-list {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.excavation-list li{
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.row {
+  margin: 20px;
 }
