@@ -34,7 +34,8 @@ h1, h2, h3, h4, p {
 }
 
 .navbar-default{
-  margin: 0;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .jumbotron h1, h2 {
