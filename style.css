@@ -4,7 +4,6 @@ html {
 
 body {
   height: 100%;
-  background-color: #6E7679;
 
 }
 
@@ -16,26 +15,41 @@ h1, h2, h3, h4, p {
 
 .jumbotron{
   text-align: center;
-  background-image: url(images/loader.jpeg);
+  background-image: url(images/layer70.png);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-color: #6E7679;
-  height: 95%;
-  width: 80%;
   color: white;
   text-shadow: 2px 2px black;
   display: flex;
   align-items: center;
-  margin: 0 auto;
+  height: 75%;
 
 
 }
 
 .navbar-default{
   margin: 0 auto;
-  width: 80%;
+  background-color: black;
+  height: 10%;
+  border: none;
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar-brand{
+  padding: 0;
+  margin-right: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  color: #dba228;
+  background-color: black;
 }
 
 .jumbotron h1, h2 {
@@ -48,30 +62,22 @@ h1, h2, h3, h4, p {
   color: #fff;
 }
 
-.section{
-  background-color: white;
-  width: 80%;
-  margin: 0 auto;
+.services{
+  height: 100%;
 }
 
-.portfolio{
+.services .col-md-6 {
+  background-color: #F0F0F0;
+  padding: 20px;
+  margin: 1%;
+  width: 48%;
+  height: 20%;
   text-align: center;
+  position: relative;
 
 }
 
-.excavation-list {
-  text-align: center;
-  list-style-type: none;
-  padding: 0;
-}
-
-.excavation-list li{
-  font-size: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-
-}
-
-.row {
-  margin: 20px;
+.services .col-md-6 img {
+  top: 50%;
+  position: relative;
 }
